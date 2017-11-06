@@ -1,7 +1,14 @@
 .header {
-    background: #ccc;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
     height: $global_header_height;
-    position: relative;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
 
     .top-nav {
         font-size: 18px;
