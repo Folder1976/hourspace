@@ -64,11 +64,14 @@ a {
     vertical-align: middle;
     cursor: pointer;
     white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 14px;
+    padding: 6px 5px;
+    font-size: 34px;
     line-height: 1.4;
-    border-radius: 5px;
-    border: 1px solid transparent;
+    background: #56cc9d;
+    color: #fff;
+    text-transform: uppercase;
+    // border-radius: 5px;
+    // border: 1px solid transparent;
     &:hover {
         opacity: .6;
     }
@@ -76,3 +79,95 @@ a {
         //outline: thin dotted;
     }
 }
+
+
+
+
+
+
+
+.logo {
+    margin-bottom: 40px;
+}
+.slogan {
+    font-size: 33px;
+    text-transform: uppercase;
+    p {
+        padding: 15px 0;
+    }
+}
+
+.home-block {
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 30px;
+    }
+    .row-img {
+        p {
+            font-size: 40px;
+        }
+    }
+    .btn-wrap {
+        margin: 30px auto;
+    }
+    .product-menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        li {
+            margin: 0 14px;
+            .img {
+                height: 138px;
+                width: 138px;
+                display: table-cell;
+                vertical-align: bottom;
+                img {
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+            .name {
+                font-size: 30px;
+            }
+        }
+    }
+}
+.home-block-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 180px 0 100px;
+    color: #fff;
+    height: 624px;
+    position: relative;
+    .container {
+        position: relative;
+        z-index: 10;
+    }
+    .social {
+        text-align: right;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+    }
+    &:after {
+        content: "";
+        display: block;
+        height: 96%;
+        width: 93%;
+        background: #38353a;
+        opacity: .5;
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+    }
+}
+
