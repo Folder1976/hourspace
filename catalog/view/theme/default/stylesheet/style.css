@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: "Arial Black", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-size: 14px;
+  color: #000;
+  height: 100%;
+  min-width: 320px; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: #000;
+  line-height: 1.4; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  font-size: 12px; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 300ms; }
+  a:hover {
+    text-decoration: underline;
+    transition: all 300ms;
+    color: red; }
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #999; }
+
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: -50px; }
+
+.page-buffer {
+  height: 50px; }
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.g-btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  border-radius: 5px;
+  border: 1px solid transparent; }
+  .g-btn:hover {
+    opacity: .6; }
+
+.header {
+  background: #ccc;
+  height: 50px;
+  position: relative; }
+  .header .top-nav {
+    font-size: 18px;
+    white-space: nowrap; }
+    .header .top-nav-toggle {
+      margin: 8px;
+      float: right;
+      display: none; }
+    .header .top-nav ul {
+      display: flex;
+      justify-content: space-between; }
+    .header .top-nav li {
+      position: relative; }
+      .header .top-nav li a {
+        display: block;
+        height: 50px;
+        line-height: 46px;
+        padding: 0 10px; }
+      .header .top-nav li.active a {
+        color: red; }
+      .header .top-nav li:hover {
+        background: #eee; }
+        .header .top-nav li:hover a {
+          text-decoration: none; }
+    .header .top-nav ul.sub-nav {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      display: none;
+      background: #fff;
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      border-radius: 0 0 5px 5px;
+      z-index: 20; }
+      .header .top-nav ul.sub-nav li {
+        padding: 0 10px; }
+    .header .top-nav li:hover ul.sub-nav {
+      display: block; }
+
+.footer {
+  height: 50px;
+  padding: 10px 0;
+  background: #ccc; }
+
+@media screen and (max-width: 768px) {
+  .header .top-nav-toggle {
+    display: block; }
+  .header .top-nav {
+    display: none; }
+    .header .top-nav.open {
+      display: block;
+      position: absolute;
+      right: 15px;
+      top: 50px;
+      background: #fff;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      min-width: 170px;
+      z-index: 10; }
+      .header .top-nav.open ul {
+        display: block; }
+        .header .top-nav.open ul.sub-nav {
+          display: none; }
+      .header .top-nav.open li {
+        padding: 0 5px; } }

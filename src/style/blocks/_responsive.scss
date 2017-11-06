@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+
+} // end max-width: 1200px
+
+
+
+@media screen and (max-width: 980px) {
+
+} // end max-width: 980px
+
+
+
+@media screen and (max-width: 768px) {
+    .header .top-nav-toggle { display: block; }
+    .header .top-nav {
+        display: none;
+        &.open {
+            display: block;
+            position: absolute;
+            right: 15px;
+            top: 50px;
+            background: #fff;
+            border-radius: 5px;
+            @include g-box-shadow(0, 0, 20px, rgba(0,0,0,.4));
+            min-width: 170px;
+            z-index: 10;
+
+            ul {
+                display: block;
+                &.sub-nav {
+                    display: none;
+                }
+            }
+            li {
+                padding: 0 5px;
+            }
+        }
+    }
+} // end max-width: 768px
+
+
+
+@media screen and (max-width: 480px) {
+
+} // end max-width: 480px
+
+
+
+@media screen and (max-width: 320px) {
+
+} // end max-width: 480px
+
