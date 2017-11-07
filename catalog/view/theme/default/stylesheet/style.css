@@ -813,10 +813,10 @@ a {
 
 .page-wrapper {
   min-height: 100%;
-  margin-bottom: -50px; }
+  margin-bottom: -55px; }
 
 .page-buffer {
-  height: 50px; }
+  height: 55px; }
 
 .ff-1 {
   font-family: "Josefin Sans", sans-serif; }
@@ -1038,9 +1038,20 @@ a {
           color: #56cc9d; }
 
 .footer {
-  height: 50px;
+  height: 55px;
   padding: 10px 0;
-  background: #ccc; }
+  background: #56cc9d;
+  font-size: 35px;
+  color: #fff; }
+  .footer a:hover {
+    color: #fff;
+    opacity: .7; }
+  .footer .social {
+    float: right; }
+    .footer .social img {
+      width: 35px; }
+    .footer .social a:hover {
+      opacity: .7; }
 
 @media screen and (max-width: 768px) {
   .header .top-nav-toggle {
