@@ -6,6 +6,7 @@ body {
     font-family: $global_ff1;
     font-size: 14px;
     color: $global_color;
+    letter-spacing: .1em;
     height: 100%;
     min-width: 320px;
 }
@@ -29,7 +30,7 @@ a {
     &:hover {
         text-decoration: underline;
         transition: all 300ms;
-        color: red;
+        color: #55cb9d;
     }
     &.disabled {
         pointer-events: none;
@@ -46,7 +47,8 @@ a {
     height: $global_footer_height;
 }
 
-
+.ff-1 { font-family: $global_ff1; }
+.ff-2 { font-family: $global_ff2; }
 
 
 
@@ -64,7 +66,7 @@ a {
     vertical-align: middle;
     cursor: pointer;
     white-space: nowrap;
-    padding: 6px 5px;
+    padding: 8px 5px 0;
     font-size: 34px;
     line-height: 1.4;
     background: #56cc9d;
@@ -74,6 +76,8 @@ a {
     // border: 1px solid transparent;
     &:hover {
         opacity: .6;
+        color: #fff;
+        text-decoration: none;
     }
     &:focus {
         //outline: thin dotted;
@@ -89,25 +93,36 @@ a {
 .logo {
     margin-bottom: 40px;
 }
-.slogan {
-    font-size: 33px;
-    text-transform: uppercase;
-    p {
-        padding: 15px 0;
-    }
-}
+
 
 .home-block {
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 50px;
     h2 {
         font-size: 50px;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 35px;
         text-transform: uppercase;
     }
     p {
         font-size: 30px;
     }
+    .slogan {
+        font-size: 33px;
+        text-transform: uppercase;
+        p {
+            padding: 15px 0;
+            font-size: 45px;
+        }
+    }
     .row-img {
+        margin-bottom: 30px;
+        img {
+            margin: 20px 0;
+        }
         p {
             font-size: 40px;
         }
@@ -121,7 +136,7 @@ a {
         justify-content: center;
         align-items: baseline;
         li {
-            margin: 0 14px;
+            margin: 0 5px;
             .img {
                 height: 138px;
                 width: 138px;
@@ -134,6 +149,7 @@ a {
             }
             .name {
                 font-size: 30px;
+                max-width: 150px;
             }
         }
     }
@@ -156,6 +172,7 @@ a {
         position: absolute;
         bottom: -50px;
         right: 0;
+        a:hover { opacity: .7; }
     }
     &:after {
         content: "";
@@ -171,3 +188,47 @@ a {
     }
 }
 
+.home-block-2 {
+    .ff-2 {
+        font-size: 38px;
+    }
+}
+
+.home-block-3 {
+    .floor {
+        p { font-size: 30px; }
+        .nis { font-size: 40px; }
+    }
+}
+
+.home-block-4 {
+    position: relative;
+    .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .row-img p {
+        font-size: 33px;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+    .join_us {
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 2em;
+        a {
+            position: relative;
+            top: 20px
+        }
+    }
+}
+
+.home-block-5 {
+    h2 {
+        font-size: 31px;
+        max-width: 550px;
+        margin: 0 auto 30px;
+    }
+}

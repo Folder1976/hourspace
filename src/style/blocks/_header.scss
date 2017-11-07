@@ -11,8 +11,9 @@
     top: 0;
 
     .top-nav {
-        font-size: 18px;
+        font-size: 23px;
         white-space: nowrap;
+        letter-spacing: 0.1em;
 
         &-toggle {
             margin: 8px;
@@ -30,16 +31,15 @@
             a {
                 display: block;
                 height: $global_header_height;
-                line-height: $global_header_height - 4;
+                line-height: $global_header_height + 3;
                 padding: 0 10px;
             }
             &.active {
                 a {
-                    color: red;
+                    color: #56cc9d;
                 }
             }
             &:hover {
-                background: #eee;
                 a {
                     text-decoration: none;
                 }

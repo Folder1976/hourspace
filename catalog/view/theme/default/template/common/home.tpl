@@ -11,78 +11,77 @@
         <p>everything is free except time</p>
       </div>
       <div class="social">
-        <a href="#">fb</a>
-        <a href="#">instagram</a>
+        <a href="#"><img src="/catalog/view/theme/default/image/ico/fb-white.png" alt="fb"></a>
+        <a href="#"><img src="/catalog/view/theme/default/image/ico/instagram-white.png" alt="instagram"></a>
       </div>
     </div>
   </div>
 
-  <div class="home-block">
+  <div class="home-block home-block-2">
     <div class="container">
       <h2>Rates</h2>
 
       <div class="row row-img">
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/hour.png" alt="">
-          <p>15 nis</p>
+          <p>15 NIS</p>
         </div>
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/day.png" alt="">
-          <p>60 nis</p>
+          <p>60 NIS</p>
         </div>
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/month.png" alt="">
-          <p>650 nis</p>
+          <p>650 NIS</p>
         </div>
       </div>
 
-      <p>there are discounst and membership</p>
+      <p class="ff-2">there are discounst and membership</p>
 
-      <p class="btn-wrap"><span class="g-btn">Details</span></p>
+      <p class="btn-wrap"><a href="/rates" class="g-btn">Details</a></p>
 
     </div>
   </div>
 
 
-  <div class="home-block">
+  <div class="home-block home-block-3">
     <div class="container">
       <h2>Hire</h2>
 
-      <p>We are located in a three storey premises 
-with a nice and cosy atmosphere. The interior design was created by our team 
-with special attention to details to ensure that every person feels as 
-comfortable as at home.</p>
+      <p>We are located in a three storey premises with a nice and cosy atmosphere. The interior design was created by our team with special attention to details to ensure that every person feels as comfortable as at home.</p>
 
       <div class="row row-img">
-        <div class="col-md-4">
+        <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/floor_0.jpg" alt="">
-          <p>150 nis</p>
-          <p>per hour</p>
+          <p class="nis">150 NIS</p>
+          <p>PER HOUR</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/floor_1.jpg" alt="">
-          <p>100 nis</p>
-          <p>per hour</p>
+          <p class="nis">100 NIS</p>
+          <p>PER HOUR</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/whole_space.jpg" alt="">
-          <p>400 nis</p>
-          <p>per hour</p>
+          <p class="nis">400 NIS</p>
+          <p>PER HOUR</p>
         </div>
       </div>
 
-      <p class="btn-wrap"><span class="g-btn">Details</span></p>
+      <p class="btn-wrap"><a href="/room_hire" class="g-btn">Details</a></p>
 
     </div>
   </div>
 
 
 
-  <div class="home-block">
+  <div class="home-block home-block-4">
     <div class="container">
-      <h2>- Time club -</h2>
-      <h2>- Coworcing -</h2>
-      <h2>- Creative space -</h2>
+      <div class="title">
+        <h3>- Time club -</h3>
+        <h3>- Coworcing -</h3>
+        <h3>- Creative space -</h3>
+      </div>
 
       <div class="row row-img">
         <div class="col-md-6">
@@ -95,13 +94,13 @@ comfortable as at home.</p>
         </div>
       </div>
 
-      <p>Join us on <img src="/catalog/view/theme/default/image/fb.png" alt="fb"> for our full calendar of events</p>
+      <p class="join_us">Join us on <a href="#"><img src="/catalog/view/theme/default/image/fb.png" alt="fb"></a> for our full calendar of events</p>
 
     </div>
   </div>
 
 
-  <div class="home-block">
+  <div class="home-block home-block-5">
     <div class="container">
       <h2>Whichever way you chose you get</h2>
 
@@ -123,6 +122,8 @@ comfortable as at home.</p>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/lemonade.jpg" alt=""></div>
             <div class="name">lemonade</div>
           </li>
+        </ul>
+        <ul>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/printer.jpg" alt=""></div>
             <div class="name">printer</div>

@@ -768,9 +768,10 @@ html {
   height: 100%; }
 
 body {
-  font-family: "Arial Black", "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   color: #000;
+  letter-spacing: .1em;
   height: 100%;
   min-width: 320px; }
 
@@ -804,7 +805,7 @@ a {
   a:hover {
     text-decoration: underline;
     transition: all 300ms;
-    color: red; }
+    color: #55cb9d; }
   a.disabled {
     pointer-events: none;
     cursor: default;
@@ -816,6 +817,12 @@ a {
 
 .page-buffer {
   height: 50px; }
+
+.ff-1 {
+  font-family: "Josefin Sans", sans-serif; }
+
+.ff-2 {
+  font-family: "Indie Flower", cursive; }
 
 .container {
   width: 100%;
@@ -829,34 +836,44 @@ a {
   vertical-align: middle;
   cursor: pointer;
   white-space: nowrap;
-  padding: 6px 5px;
+  padding: 8px 5px 0;
   font-size: 34px;
   line-height: 1.4;
   background: #56cc9d;
   color: #fff;
   text-transform: uppercase; }
   .g-btn:hover {
-    opacity: .6; }
+    opacity: .6;
+    color: #fff;
+    text-decoration: none; }
 
 .logo {
   margin-bottom: 40px; }
 
-.slogan {
-  font-size: 33px;
-  text-transform: uppercase; }
-  .slogan p {
-    padding: 15px 0; }
-
 .home-block {
   text-align: center;
-  padding-top: 50px; }
+  padding-top: 50px;
+  margin-bottom: 50px; }
   .home-block h2 {
     font-size: 50px;
     text-transform: uppercase; }
+  .home-block h3 {
+    font-size: 35px;
+    text-transform: uppercase; }
   .home-block p {
     font-size: 30px; }
-  .home-block .row-img p {
-    font-size: 40px; }
+  .home-block .slogan {
+    font-size: 33px;
+    text-transform: uppercase; }
+    .home-block .slogan p {
+      padding: 15px 0;
+      font-size: 45px; }
+  .home-block .row-img {
+    margin-bottom: 30px; }
+    .home-block .row-img img {
+      margin: 20px 0; }
+    .home-block .row-img p {
+      font-size: 40px; }
   .home-block .btn-wrap {
     margin: 30px auto; }
   .home-block .product-menu ul {
@@ -865,7 +882,7 @@ a {
     justify-content: center;
     align-items: baseline; }
     .home-block .product-menu ul li {
-      margin: 0 14px; }
+      margin: 0 5px; }
       .home-block .product-menu ul li .img {
         height: 138px;
         width: 138px;
@@ -875,7 +892,8 @@ a {
           max-height: 100%;
           max-width: 100%; }
       .home-block .product-menu ul li .name {
-        font-size: 30px; }
+        font-size: 30px;
+        max-width: 150px; }
 
 .home-block-1 {
   background-size: cover;
@@ -893,6 +911,8 @@ a {
     position: absolute;
     bottom: -50px;
     right: 0; }
+    .home-block-1 .social a:hover {
+      opacity: .7; }
   .home-block-1:after {
     content: "";
     display: block;
@@ -904,6 +924,39 @@ a {
     z-index: 1;
     bottom: 0;
     right: 0; }
+
+.home-block-2 .ff-2 {
+  font-size: 38px; }
+
+.home-block-3 .floor p {
+  font-size: 30px; }
+
+.home-block-3 .floor .nis {
+  font-size: 40px; }
+
+.home-block-4 {
+  position: relative; }
+  .home-block-4 .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+  .home-block-4 .row-img p {
+    font-size: 33px;
+    max-width: 240px;
+    margin: 0 auto; }
+  .home-block-4 .join_us {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 2em; }
+    .home-block-4 .join_us a {
+      position: relative;
+      top: 20px; }
+
+.home-block-5 h2 {
+  font-size: 31px;
+  max-width: 550px;
+  margin: 0 auto 30px; }
 
 .header {
   background: transparent;
@@ -917,8 +970,9 @@ a {
   right: 0;
   top: 0; }
   .header .top-nav {
-    font-size: 18px;
-    white-space: nowrap; }
+    font-size: 23px;
+    white-space: nowrap;
+    letter-spacing: 0.1em; }
     .header .top-nav-toggle {
       margin: 8px;
       float: right;
@@ -931,14 +985,12 @@ a {
       .header .top-nav li a {
         display: block;
         height: 50px;
-        line-height: 46px;
+        line-height: 53px;
         padding: 0 10px; }
       .header .top-nav li.active a {
-        color: red; }
-      .header .top-nav li:hover {
-        background: #eee; }
-        .header .top-nav li:hover a {
-          text-decoration: none; }
+        color: #56cc9d; }
+      .header .top-nav li:hover a {
+        text-decoration: none; }
     .header .top-nav ul.sub-nav {
       position: absolute;
       top: 50px;
