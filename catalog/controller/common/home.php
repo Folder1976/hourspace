@@ -16,6 +16,9 @@ class ControllerCommonHome extends Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 		$data['header'] = $this->load->controller('common/header');
 
+		$data['current_language_id'] = $config->get('config_language_id');
+		$data['current_language'] = $config->get('config_language');
+	
 		$this->response->setOutput($this->load->view('common/home', $data));
 	}
 }
