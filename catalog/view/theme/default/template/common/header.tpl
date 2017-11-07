@@ -49,12 +49,12 @@
           <nav class="top-nav">
             <ul>
               <!-- <li><a href="/">Home</a></li> -->
-              <li><a href="#">Concept</a></li>
-              <li><a href="#">Rates</a></li>
-              <li><a href="#">Room hire</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Contacts</a></li>
-              <li><a href="#">Galery</a></li>
+              <li><a href="/concept">Concept</a></li>
+              <li><a href="/rates">Rates</a></li>
+              <li><a href="/room_hire">Room hire</a></li>
+              <li><a href="/team">Team</a></li>
+              <li><a href="/contacts">Contacts</a></li>
+              <li><a href="/galery">Galery</a></li>
             </ul>
           </nav>
           <?php echo $language; ?>

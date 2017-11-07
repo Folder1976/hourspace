@@ -25,9 +25,10 @@ $(document).mouseup(function (e){
 
 /*************************************************************/
 // при сколинге страницы меняем цвет топ-меню
+// актуально только для главной страницы
 $(window).scroll(function(){
     var heigth = $('.home-block-1').outerHeight() - 30;
-    if( $(this).scrollTop() >= heigth ){
+    if( heigth < 0 || $(this).scrollTop() >= heigth ){
         $('.top-nav').css('color', '#000');
         $('.header').css('background', 'rgba(255,255,255,.5)');
     } else {
@@ -35,6 +36,7 @@ $(window).scroll(function(){
         $('.header').css('background', 'rgba(255,255,255,0)');
     }
 });
+$(window).scroll();
 
 /*************************************************************/
 // выпадающее меню
