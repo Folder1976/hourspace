@@ -82,9 +82,21 @@ a {
     &:focus {
         //outline: thin dotted;
     }
+    &--lang {
+        font-size: 23px;
+        color: #fff;
+        background: #000;
+        padding: 4px 7px 0;
+        border: 0;
+    }
 }
 
-
+.dropdown-menu {
+    display: none;
+    &.open {
+        display: block;
+    }
+}
 
 
 

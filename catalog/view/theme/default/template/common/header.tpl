@@ -44,7 +44,8 @@
   <div class="page-wrapper">
     <header class="header">
       <div class="container">
-        <button class="top-nav-toggle g-btn js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+        <div class="top-line">
+          <button class="top-nav-toggle g-btn js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
           <nav class="top-nav">
             <ul>
               <!-- <li><a href="/">Home</a></li> -->
@@ -56,6 +57,8 @@
               <li><a href="#">Galery</a></li>
             </ul>
           </nav>
+          <?php echo $language; ?>
+        </div>
       </div>
     </header>
 

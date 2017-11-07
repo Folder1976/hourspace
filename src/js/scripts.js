@@ -37,6 +37,21 @@ $(window).scroll(function(){
 });
 
 /*************************************************************/
+// выпадающее меню
+$('.js-dropdown').on('click', function(){
+    var menu = $(this).parent().find('.dropdown-menu');
+    if ( menu.hasClass('open') ) {
+        menu.removeClass('open');
+    } else {
+        menu.addClass('open');
+    }
+});
+$(document).mouseup(function (e){
+    if ( $(e.target).closest('.dropdown-menu').length === 0 && $(e.target).closest('.js-dropdown').length === 0 ) {
+        $('.dropdown-menu').removeClass('open');
+    }
+});
+
 /*************************************************************/
 /*************************************************************/
 /*************************************************************/
