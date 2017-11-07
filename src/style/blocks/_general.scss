@@ -24,7 +24,11 @@ h5 { font-size: 14px; }
 h6 { font-size: 12px; }
 
 main {
+    padding-top: $global_header_height + 20;
     margin-bottom: 30px;
+    &.home {
+        padding-top: 0;
+    }
 }
 
 a {

@@ -799,7 +799,10 @@ h6 {
   font-size: 12px; }
 
 main {
+  padding-top: 70px;
   margin-bottom: 30px; }
+  main.home {
+    padding-top: 0; }
 
 a {
   text-decoration: none;
@@ -1059,10 +1062,11 @@ a {
     .footer .social a:hover {
       opacity: .7; }
 
-.information {
-  padding-top: 50px; }
-  .information p {
-    line-height: 1.4em; }
+.information p {
+  line-height: 1.4em; }
+
+.error p {
+  line-height: 1.4em; }
 
 @media screen and (max-width: 768px) {
   .header .top-nav-toggle {

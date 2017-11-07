@@ -18,8 +18,12 @@
 @import './blocks/bread_crumbs';
 @import './blocks/footer';
 
-// information.tpl
+// information/information.tpl
 @import './blocks/information';
+
+// error/not_found.tpl
+@import './blocks/error';
+
 
 // адаптив
 @import './blocks/responsive';
