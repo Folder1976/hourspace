@@ -25,12 +25,13 @@
 
 <?php if ( $direction == 'rtl' ) {?>
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="catalog/view/theme/default/stylesheet/style-rtl.min.css" rel="stylesheet">  
+  <link href="/catalog/view/theme/default/stylesheet/style-rtl.min.css" rel="stylesheet">  
 <?php } else { ?>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
-  <link href="catalog/view/theme/default/stylesheet/style.min.css" rel="stylesheet">
+  <link href="/catalog/view/theme/default/stylesheet/style.min.css" rel="stylesheet">
 <?php } ?>
 
+<link href="/catalog/view/theme/default/stylesheet/informations.css" rel="stylesheet">
 <script src="catalog/view/theme/default/js/scripts.js" type="text/javascript"></script>
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
