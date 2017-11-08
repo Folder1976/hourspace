@@ -10,6 +10,7 @@ body {
     height: 100%;
     min-width: 320px;
 }
+.rtl body { font-family: $global_ff1_rtl;}
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
@@ -58,6 +59,8 @@ a {
 .ff-1 { font-family: $global_ff1; }
 .ff-2 { font-family: $global_ff2; }
 
+.rtl .ff-1 { font-family: $global_ff1_rtl; }
+.rtl .ff-2 { font-family: $global_ff2_rtl; }
 
 
 

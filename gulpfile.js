@@ -38,6 +38,7 @@ var gulp = require('gulp'),
     browserSync = require("browser-sync").create(),
     reload = browserSync.reload;
 
+    rtlcss = require('gulp-rtlcss');
     // rimraf = require('rimraf'),
 
 
@@ -82,6 +83,21 @@ gulp.task('style:build', function () {
         .pipe(sourcemaps.write('/maps'))
         .pipe(gulp.dest(path.build.css));
         //.pipe(notify('Styles are compiled!'));
+
+    // стили для rtl языков
+    gulp.src(path.src.style)
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+
+        .pipe(rtlcss())
+        .pipe(rename({ suffix: '-rtl' }))
+        .pipe(gulp.dest(path.build.css))
+
+        .pipe(cleanCSS())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(sourcemaps.write('/maps'))
+        .pipe(gulp.dest(path.build.css));
+
     gulp.src(path.watch.style)
         .pipe(reload({stream: true}));       //перезагрузим наш сервер для обновлений
 });
