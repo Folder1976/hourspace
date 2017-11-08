@@ -55,7 +55,7 @@
           <button class="top-nav-toggle g-btn js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
           <nav class="top-nav">
             <ul>
-              <!-- <li><a href="/">Home</a></li> -->
+              <li><a href="/">Home</a></li>
               <li><a href="/concept">Concept</a></li>
               <li><a href="/rates">Rates</a></li>
               <li><a href="/room_hire">Room hire</a></li>
