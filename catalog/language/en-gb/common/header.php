@@ -1,4 +1,14 @@
 <?php
+
+//Menu
+$_['menu_home'] = 'Home';
+$_['menu_concept'] = 'Concept';
+$_['menu_rates'] = 'Rates';
+$_['menu_room_hire'] = 'Room hire';
+$_['menu_team'] = 'Team';
+$_['menu_contact'] = 'Contact';
+$_['menu_galery'] = 'Gallery';
+
 // Text
 $_['text_home']          = 'Home';
 $_['text_wishlist']      = 'Wish List (%s)';

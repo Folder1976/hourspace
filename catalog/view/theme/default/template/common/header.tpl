@@ -56,13 +56,13 @@
           <button class="top-nav-toggle g-btn js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
           <nav class="top-nav">
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/concept">Concept</a></li>
-              <li><a href="/rates">Rates</a></li>
-              <li><a href="/room_hire">Room hire</a></li>
-              <li><a href="/team">Team</a></li>
-              <li><a href="/contacts">Contacts</a></li>
-              <li><a href="/galery">Galery</a></li>
+              <li><a href="/"><?php echo $menu_home; ?></a></li>
+              <li><a href="/concept"><?php echo $menu_concept; ?></a></li>
+              <li><a href="/rates"><?php echo $menu_rates; ?></a></li>
+              <li><a href="/room_hire"><?php echo $menu_room_hire; ?></a></li>
+              <li><a href="/team"><?php echo $menu_team; ?></a></li>
+              <li><a href="/contacts"><?php echo $menu_contact; ?></a></li>
+              <li><a href="/gallery"><?php echo $menu_galery; ?></a></li>
             </ul>
           </nav>
           <?php echo $language; ?>

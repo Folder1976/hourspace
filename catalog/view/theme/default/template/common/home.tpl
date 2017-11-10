@@ -7,8 +7,8 @@
         <img src="/image/logo.png" alt="">
       </div>
       <div class="slogan">
-        <p>a place where</p>
-        <p>everything is free except time</p>
+        <p><?php echo $text_a_place_where; ?></p>
+        <p><?php echo $text_everything_is_free_except_time; ?></p>
       </div>
       <div class="social">
         <a href="#"><img src="/catalog/view/theme/default/image/ico/fb-white.png" alt="fb"></a>
@@ -19,26 +19,26 @@
 
   <div class="home-block home-block-2">
     <div class="container">
-      <h2>Rates</h2>
+      <h2><?php echo $text_rates;?></h2>
 
       <div class="row row-img">
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/hour.png" alt="">
-          <p>15 NIS</p>
+          <p>15 <?php echo $text_nik; ?></p>
         </div>
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/day.png" alt="">
-          <p>60 NIS</p>
+          <p>60 <?php echo $text_nik; ?></p>
         </div>
         <div class="col-md-4">
           <img src="/catalog/view/theme/default/image/month.png" alt="">
-          <p>650 NIS</p>
+          <p>650 <?php echo $text_nik; ?></p>
         </div>
       </div>
 
-      <p class="ff-2">there are discounst and membership</p>
+      <p class="ff-2"><?php echo $text_discounst_and_membership; ?></p>
 
-      <p class="btn-wrap"><a href="/rates" class="g-btn">Details</a></p>
+      <p class="btn-wrap"><a href="/rates" class="g-btn"><?php echo $text_details; ?></a></p>
 
     </div>
   </div>
@@ -46,29 +46,29 @@
 
   <div class="home-block home-block-3">
     <div class="container">
-      <h2>Hire</h2>
+      <h2><?php echo $text_hire; ?></h2>
 
-      <p>We are located in a three storey premises with a nice and cosy atmosphere. The interior design was created by our team with special attention to details to ensure that every person feels as comfortable as at home.</p>
+      <p><?php echo $text_we_are_located_in; ?></p>
 
       <div class="row row-img">
         <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/floor_0.jpg" alt="">
-          <p class="nis">150 NIS</p>
-          <p>PER HOUR</p>
+          <p class="nis">150 <?php echo $text_nik; ?></p>
+          <p><?php echo $text_per_hour; ?></p>
         </div>
         <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/floor_1.jpg" alt="">
-          <p class="nis">100 NIS</p>
-          <p>PER HOUR</p>
+          <p class="nis">100 <?php echo $text_nik; ?></p>
+          <p><?php echo $text_per_hour; ?></p>
         </div>
         <div class="col-md-4 floor">
           <img src="/catalog/view/theme/default/image/whole_space.jpg" alt="">
-          <p class="nis">400 NIS</p>
-          <p>PER HOUR</p>
+          <p class="nis">400 <?php echo $text_nik; ?></p>
+          <p><?php echo $text_per_hour; ?></p>
         </div>
       </div>
 
-      <p class="btn-wrap"><a href="/room_hire" class="g-btn">Details</a></p>
+      <p class="btn-wrap"><a href="/room_hire" class="g-btn"><?php echo $text_details; ?></a></p>
 
     </div>
   </div>
@@ -78,23 +78,23 @@
   <div class="home-block home-block-4">
     <div class="container">
       <div class="title">
-        <h3>- Time club -</h3>
-        <h3>- Coworcing -</h3>
-        <h3>- Creative space -</h3>
+        <h3><?php echo $text_time_club;?></h3>
+        <h3><?php echo $text_coworcing; ?></h3>
+        <h3><?php echo $text_creative_space; ?></h3>
       </div>
 
       <div class="row row-img">
         <div class="col-md-6">
           <img src="/catalog/view/theme/default/image/time1.png" alt="">
-          <p>co-working mode</p>
+          <p><?php echo $text_co_working_mode; ?></p>
         </div>
         <div class="col-md-6">
           <img src="/catalog/view/theme/default/image/time2.png" alt="">
-          <p>child mode events time</p>
+          <p><?php echo $text_child_mode; ?></p>
         </div>
       </div>
 
-      <p class="join_us">Join us on <a href="#"><img src="/catalog/view/theme/default/image/fb.png" alt="fb"></a> for our full calendar of events</p>
+      <p class="join_us"><?php echo $text_join_us_on; ?></p>
 
     </div>
   </div>
@@ -102,51 +102,51 @@
 
   <div class="home-block home-block-5">
     <div class="container">
-      <h2>Whichever way you chose you get</h2>
+      <h2><?php echo $text_whichever; ?></h2>
 
       <div class="product-menu">
         <ul>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/tea.jpg" alt=""></div>
-            <div class="name">tea</div>
+            <div class="name"><?php echo $text_tea; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/snacks.jpg" alt=""></div>
-            <div class="name">snacks</div>
+            <div class="name"><?php echo $text_snacks; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/coffee.jpg" alt=""></div>
-            <div class="name">coffee</div>
+            <div class="name"><?php echo $text_coffee; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/lemonade.jpg" alt=""></div>
-            <div class="name">lemonade</div>
+            <div class="name"><?php echo $text_lemonade; ?></div>
           </li>
         </ul>
         <ul>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/printer.jpg" alt=""></div>
-            <div class="name">printer</div>
+            <div class="name"><?php echo $text_printer; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/chargers.jpg" alt=""></div>
-            <div class="name">chargers</div>
+            <div class="name"><?php echo $text_chargers; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/scanner.jpg" alt=""></div>
-            <div class="name">scanner</div>
+            <div class="name"><?php echo $text_scanner; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/wifi.jpg" alt=""></div>
-            <div class="name">wifi</div>
+            <div class="name"><?php echo $text_wifi; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/board_games.jpg" alt=""></div>
-            <div class="name">board games</div>
+            <div class="name"><?php echo $text_board_games; ?></div>
           </li>
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/books.jpg" alt=""></div>
-            <div class="name">books</div>
+            <div class="name"><?php echo $text_books; ?></div>
           </li>
         </ul>
       </div>

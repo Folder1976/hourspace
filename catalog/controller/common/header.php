@@ -59,6 +59,15 @@ class ControllerCommonHeader extends Controller {
 		$data['text_shopping_cart'] = $this->language->get('text_shopping_cart');
 		$data['text_logged'] = sprintf($this->language->get('text_logged'), $this->url->link('account/account', '', true), $this->customer->getFirstName(), $this->url->link('account/logout', '', true));
 
+		$data['menu_home'] = $this->language->get('menu_home');
+		$data['menu_concept'] = $this->language->get('menu_concept');
+		$data['menu_rates'] = $this->language->get('menu_rates');
+		$data['menu_room_hire'] = $this->language->get('menu_room_hire');
+		$data['menu_team'] = $this->language->get('menu_team');
+		$data['menu_contact'] = $this->language->get('menu_contact');
+		$data['menu_galery'] = $this->language->get('menu_galery');
+		
+		
 		$data['text_account'] = $this->language->get('text_account');
 		$data['text_register'] = $this->language->get('text_register');
 		$data['text_login'] = $this->language->get('text_login');

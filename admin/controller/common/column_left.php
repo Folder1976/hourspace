@@ -51,6 +51,9 @@ class ControllerCommonColumnLeft extends Controller {
 				);
 			}
 			
+			
+			
+			
 			if ($this->user->hasPermission('access', 'catalog/product')) {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_product'),
@@ -138,6 +141,14 @@ class ControllerCommonColumnLeft extends Controller {
 				$catalog[] = array(
 					'name'	   => $this->language->get('text_information'),
 					'href'     => $this->url->link('catalog/information', 'token=' . $this->session->data['token'], true),
+					'children' => array()		
+				);					
+			}
+			
+			if ($this->user->hasPermission('access', 'module/gallery')) {		
+				$catalog[] = array(
+					'name'	   => 'Галерея Картинки',
+					'href'     => $this->url->link('module/gallery', 'token=' . $this->session->data['token'], true),
 					'children' => array()		
 				);					
 			}

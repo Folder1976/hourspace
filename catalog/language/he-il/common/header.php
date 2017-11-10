@@ -1,4 +1,14 @@
 <?php
+//Menu
+$_['menu_home'] = 'בית';
+$_['menu_concept'] = 'מוּשָׂג';
+$_['menu_rates'] = 'תעריפים';
+$_['menu_room_hire'] = 'לשכור חדר';
+$_['menu_team'] = 'קְבוּצָה';
+$_['menu_contact'] = 'איש קשר';
+$_['menu_galery'] = 'גלרי';
+
+
 // Text
 $_['text_home'] = 'דף הבית';
 $_['text_wishlist'] = 'רשימת המבוקשים (%s)';
