@@ -764,11 +764,18 @@ table {
   .col-lg-offset-12 {
     margin-right: 100%; } }
 
+@font-face {
+  font-family: 'Futura';
+  src: url("/catalog/view/theme/default/fonts/");
+  src: url("../fonts/furuta.eot") format("embedded-opentype"), url("/catalog/view/theme/default/fonts/furuta.woff") format("woff"), url("/catalog/view/theme/default/fonts/furuta.ttf") format("truetype"), url("/catalog/view/theme/default/fonts/furuta.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 html {
   height: 100%; }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Futura, sans-serif;
   font-size: 14px;
   color: #000;
   letter-spacing: .1em;
@@ -828,10 +835,10 @@ a {
   height: 55px; }
 
 .ff-1 {
-  font-family: "Josefin Sans", sans-serif; }
+  font-family: Futura, sans-serif; }
 
 .ff-2 {
-  font-family: "Indie Flower", cursive; }
+  font-family: "Indie Flower", "Caveat", cursive; }
 
 .rtl .ff-1 {
   font-family: "Rubik", sans-serif; }
@@ -851,7 +858,7 @@ a {
   vertical-align: middle;
   cursor: pointer;
   white-space: nowrap;
-  padding: 8px 5px 0;
+  padding: 1px 5px 0;
   font-size: 34px;
   line-height: 1.4;
   background: #56cc9d;
@@ -967,13 +974,15 @@ a {
   position: relative; }
   .home-block-4 .title {
     position: absolute;
-    top: 0;
+    top: 60px;
     right: 0;
     left: 0; }
-  .home-block-4 .row-img p {
-    font-size: 33px;
-    max-width: 240px;
-    margin: 0 auto; }
+  .home-block-4 .row-img {
+    margin-top: 100px; }
+    .home-block-4 .row-img p {
+      font-size: 33px;
+      max-width: 240px;
+      margin: 0 auto; }
   .home-block-4 .join_us {
     max-width: 500px;
     margin: 0 auto;
@@ -985,7 +994,8 @@ a {
 .home-block-5 h2 {
   font-size: 31px;
   max-width: 550px;
-  margin: 0 auto 30px; }
+  margin: 0 auto 30px;
+  font-weight: bold; }
 
 .header {
   background: transparent;
