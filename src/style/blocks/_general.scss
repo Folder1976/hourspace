@@ -269,3 +269,91 @@ a {
         font-weight: bold;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.room-hire {
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        padding: 30px 0 50px;
+    }
+    p {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .floor-block {
+        margin-top: 20px;
+        .title {
+            display: inline-block;
+            font-size: 17px;
+            font-weight: bold;
+            border-bottom: 2px solid #56cc9d;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .options {
+            width: 240px;
+        }
+        .floor-img {
+            float: right;
+            position: relative;
+            right: -7px;
+            img {
+                width: 120px;
+            }
+        }
+        .option {
+            font-size: 18px;
+            margin-bottom: 35px;
+            .img {
+                float: left;
+                width: 44px;
+                img {width: 44px;}
+            }
+            &-title {
+                font-weight: bold;
+                margin-left: 55px;
+                margin-bottom: 9px;
+            }
+            &-desc {
+                margin-left: 55px;
+                line-height: 1.5em;
+            }
+        }
+        .floor-img {
+            position: relative;
+            .text {
+                position: absolute;
+                top: 50px;
+                left: 20px;
+            }
+        }
+    }
+
+    .prices {
+        text-align: center;
+        p {
+            font-size: 22px;
+            line-height: 1.2em;
+            margin: 10px 0;
+        }
+    }
+}

@@ -997,6 +997,62 @@ a {
   margin: 0 auto 30px;
   font-weight: bold; }
 
+.room-hire h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 30px 0 50px; }
+
+.room-hire p {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 35px; }
+
+.room-hire .floor-block {
+  margin-top: 20px; }
+  .room-hire .floor-block .title {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 2px solid #56cc9d;
+    padding-bottom: 5px;
+    margin-bottom: 15px; }
+  .room-hire .floor-block .options {
+    width: 240px; }
+  .room-hire .floor-block .floor-img {
+    float: left;
+    position: relative;
+    left: -7px; }
+    .room-hire .floor-block .floor-img img {
+      width: 120px; }
+  .room-hire .floor-block .option {
+    font-size: 18px;
+    margin-bottom: 35px; }
+    .room-hire .floor-block .option .img {
+      float: right;
+      width: 44px; }
+      .room-hire .floor-block .option .img img {
+        width: 44px; }
+    .room-hire .floor-block .option-title {
+      font-weight: bold;
+      margin-right: 55px;
+      margin-bottom: 9px; }
+    .room-hire .floor-block .option-desc {
+      margin-right: 55px;
+      line-height: 1.5em; }
+  .room-hire .floor-block .floor-img {
+    position: relative; }
+    .room-hire .floor-block .floor-img .text {
+      position: absolute;
+      top: 50px;
+      right: 20px; }
+
+.room-hire .prices {
+  text-align: center; }
+  .room-hire .prices p {
+    font-size: 22px;
+    line-height: 1.2em;
+    margin: 10px 0; }
+
 .header {
   background: transparent;
   color: #fff;
