@@ -357,3 +357,51 @@ a {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Gallery
+#links0 {
+    h4 { margin-bottom: 60px; }
+    .image { text-align: center; }
+}
+
+
+
+
+
+
+
+// Team
+.teams {
+    p {
+        text-align: center;
+        font-size: 22px;
+    }
+    .team {
+        margin-top: 30px;
+        .image {
+            max-width: 300px;
+            margin: 0 auto;
+            img {
+                max-width: 100%;
+            }
+        }
+        .name {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 20px 0;
+        }
+    }
+}

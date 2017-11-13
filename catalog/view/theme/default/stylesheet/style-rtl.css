@@ -1053,6 +1053,29 @@ a {
     line-height: 1.2em;
     margin: 10px 0; }
 
+#links0 h4 {
+  margin-bottom: 60px; }
+
+#links0 .image {
+  text-align: center; }
+
+.teams p {
+  text-align: center;
+  font-size: 22px; }
+
+.teams .team {
+  margin-top: 30px; }
+  .teams .team .image {
+    max-width: 300px;
+    margin: 0 auto; }
+    .teams .team .image img {
+      max-width: 100%; }
+  .teams .team .name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0; }
+
 .header {
   background: transparent;
   color: #fff;
