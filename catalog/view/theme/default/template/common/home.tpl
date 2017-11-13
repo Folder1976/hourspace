@@ -15,6 +15,7 @@
         <a href="#"><img src="/catalog/view/theme/default/image/ico/instagram-white.png" alt="instagram"></a>
       </div>
     </div>
+    <div class="next-page-img"></div>
   </div>
 
   <div class="home-block home-block-2">

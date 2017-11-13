@@ -48,6 +48,8 @@ a {
     }
 }
 
+b { font-weight: bold; }
+
 .page-wrapper {
     min-height: 100%;
     margin-bottom: -$global_footer_height;
@@ -130,7 +132,7 @@ a {
 
 .home-block {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-bottom: 50px;
     h2 {
         font-size: 50px;
@@ -139,6 +141,7 @@ a {
     h3 {
         font-size: 35px;
         text-transform: uppercase;
+        font-weight: bold;
     }
     p {
         font-size: 30px;
@@ -205,7 +208,10 @@ a {
         position: absolute;
         bottom: -50px;
         right: 0;
-        a:hover { opacity: .7; }
+        a {
+            margin-left: 20px;
+            &:hover { opacity: .7; }
+        }
     }
     &:after {
         content: "";
@@ -264,9 +270,64 @@ a {
 .home-block-5 {
     h2 {
         font-size: 31px;
-        max-width: 550px;
+        // max-width: 550px;
         margin: 0 auto 30px;
         font-weight: bold;
+    }
+}
+
+.next-page-img {
+    margin: 0 auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #b1b4b8;
+    position: absolute;
+    z-index: 10;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -10px 0 0 -6px;
+        display: block;
+        height: 12px;
+        width: 12px;
+        border-top: 2px solid #8c8c8c;
+        border-left: 2px solid #8c8c8c;
+        transform: rotate(225deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.information-concept {
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        padding: 30px 0 50px;
+        text-transform: uppercase;
+    }
+    p {
+        position: relative;
+        .img { position: absolute; }
     }
 }
 
@@ -285,19 +346,39 @@ a {
 
 
 
-
-
-
 .room-hire {
-    h1 {
+    text-align: center;
+    h1, h2 {
         font-size: 50px;
         font-weight: bold;
         padding: 30px 0 50px;
+        text-transform: uppercase;
     }
     p {
-        font-size: 32px;
+        font-size: 22px;
         text-align: center;
         margin-bottom: 35px;
+        &.after-text {
+            font-size: 15px;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+            padding: 0px 20px;
+            margin: 40px 0 50px;
+            &:before, &:after {
+                content: "";
+                background-image: url('/catalog/view/theme/default/image/exclamation_mark.png');
+                display: block;
+                height: 50px;
+                width: 13px;
+                font-size: 69px;
+                color: #00cd9c;
+                position: absolute;
+                top: 7px;
+            }
+            &:before { left: 0; }
+            &:after { right: 0; }
+        }
     }
     .floor-block {
         margin-top: 20px;
@@ -316,6 +397,13 @@ a {
             float: right;
             position: relative;
             right: -7px;
+            .text {
+                position: absolute;
+                left: 10px;
+                right: 10px;
+                text-align: center;
+                font-size: 17px;
+            }
             img {
                 width: 120px;
             }
@@ -336,14 +424,6 @@ a {
             &-desc {
                 margin-left: 55px;
                 line-height: 1.5em;
-            }
-        }
-        .floor-img {
-            position: relative;
-            .text {
-                position: absolute;
-                top: 50px;
-                left: 20px;
             }
         }
     }
