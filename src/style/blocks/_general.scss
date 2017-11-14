@@ -216,8 +216,8 @@ b { font-weight: bold; }
     &:after {
         content: "";
         display: block;
-        height: 96%;
-        width: 93%;
+        height: 100%;
+        width: 100%;
         background: #38353a;
         opacity: .5;
         position: absolute;
