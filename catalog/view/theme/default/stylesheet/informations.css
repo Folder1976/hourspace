@@ -34,11 +34,12 @@
 }
 .information-rates .middle-div{
     text-align: center;
-    margin:80px 180px;
+    margin: 20px 180px 70px;
     font-weight: bold;
     font-size:26px;
 }
 .information-rates .bott-div{
     text-align: center;
     font-size:26px;
+    line-height: 2em;
 }
