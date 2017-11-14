@@ -1096,8 +1096,11 @@ b {
       .room-hire .floor-block .floor-img img {
         width: 120px; }
     .room-hire .floor-block .option {
-      font-size: 18px;
-      margin-bottom: 35px; }
+      font-size: 18px; }
+      .room-hire .floor-block .option:nth-child(1) {
+        margin-bottom: 5px; }
+      .room-hire .floor-block .option:nth-child(2) {
+        margin-bottom: 15px; }
       .room-hire .floor-block .option .img {
         float: right;
         width: 44px; }
@@ -1106,10 +1109,11 @@ b {
       .room-hire .floor-block .option-title {
         font-weight: bold;
         margin-right: 55px;
-        margin-bottom: 9px; }
+        margin-bottom: 0; }
       .room-hire .floor-block .option-desc {
         margin-right: 55px;
-        line-height: 1.5em; }
+        line-height: 1em;
+        min-height: 36px; }
   .room-hire .prices {
     text-align: center; }
     .room-hire .prices p {

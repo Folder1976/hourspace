@@ -410,7 +410,9 @@ b { font-weight: bold; }
         }
         .option {
             font-size: 18px;
-            margin-bottom: 35px;
+            // margin-bottom: 31px;
+            &:nth-child(1) { margin-bottom: 5px; }
+            &:nth-child(2) { margin-bottom: 15px; }
             .img {
                 float: left;
                 width: 44px;
@@ -419,11 +421,12 @@ b { font-weight: bold; }
             &-title {
                 font-weight: bold;
                 margin-left: 55px;
-                margin-bottom: 9px;
+                margin-bottom: 0;
             }
             &-desc {
                 margin-left: 55px;
-                line-height: 1.5em;
+                line-height: 1em;
+                min-height: 36px;
             }
         }
     }
