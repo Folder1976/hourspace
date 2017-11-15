@@ -78,11 +78,23 @@
         font-size: 30px;
     }
     .home-block h3 { font-size: 19px; }
+    .information-contact .cont-row {
+        text-align: center;
+        img {
+            position: static;
+            display: block;
+            margin: 0 auto;
+        }
+        span {
+            margin-left: 0;
+        }
+    }
 } // end max-width: 480px
 
 
 
-@media screen and (max-width: 320px) {
-
-} // end max-width: 480px
+@media screen and (max-width: 400px) {
+    .room-hire .floor-block { margin-bottom: 70px; }
+    .room-hire .floor-block .title { display: block; }
+} // end max-width: 400px
 

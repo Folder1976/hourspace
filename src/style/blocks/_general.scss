@@ -50,6 +50,8 @@ a {
 
 b { font-weight: bold; }
 
+img { max-width: 100%; }
+
 .page-wrapper {
     min-height: 100%;
     margin-bottom: -$global_footer_height;
@@ -391,7 +393,8 @@ b { font-weight: bold; }
         }
     }
     .floor-block {
-        margin-top: 20px;
+        max-width: 400px;
+        margin: 20px auto 20px;
         .title {
             display: inline-block;
             font-size: 17px;
@@ -495,6 +498,51 @@ b { font-weight: bold; }
             font-size: 30px;
             font-weight: bold;
             padding: 20px 0;
+        }
+    }
+}
+
+
+
+
+
+
+// Rates
+.information-rates {
+    font-size:21px;
+    text-align: center;
+    p { margin-bottom: 60px; }
+    .img { margin-bottom: 60px; }
+    .middle-div {
+        margin: 20px auto 70px;
+        max-width: 790px;
+        font-weight: bold;
+        font-size:26px;
+    }
+    .bott-div {
+        text-align: center;
+        font-size:26px;
+        line-height: 2em;
+    }
+}
+
+
+
+
+// Contact
+.information-contact {
+    margin-top: 40px;
+    font-size:26px;
+    .cont-row {
+        position: relative;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        span {
+            margin-left: 75px;
+            line-height: 65px;
         }
     }
 }

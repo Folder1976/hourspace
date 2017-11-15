@@ -1003,6 +1003,9 @@ a {
 b {
   font-weight: bold; }
 
+img {
+  max-width: 100%; }
+
 .page-wrapper {
   min-height: 100%;
   margin-bottom: -55px; }
@@ -1256,7 +1259,8 @@ b {
       .room-hire p.after-text:after {
         left: 0; }
   .room-hire .floor-block {
-    margin-top: 20px; }
+    max-width: 400px;
+    margin: 20px auto 20px; }
     .room-hire .floor-block .title {
       display: inline-block;
       font-size: 17px;
@@ -1326,6 +1330,36 @@ b {
     font-size: 30px;
     font-weight: bold;
     padding: 20px 0; }
+
+.information-rates {
+  font-size: 21px;
+  text-align: center; }
+  .information-rates p {
+    margin-bottom: 60px; }
+  .information-rates .img {
+    margin-bottom: 60px; }
+  .information-rates .middle-div {
+    margin: 20px auto 70px;
+    max-width: 790px;
+    font-weight: bold;
+    font-size: 26px; }
+  .information-rates .bott-div {
+    text-align: center;
+    font-size: 26px;
+    line-height: 2em; }
+
+.information-contact {
+  margin-top: 40px;
+  font-size: 26px; }
+  .information-contact .cont-row {
+    position: relative; }
+    .information-contact .cont-row img {
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .information-contact .cont-row span {
+      margin-right: 75px;
+      line-height: 65px; }
 
 .header {
   background: transparent;
@@ -1467,4 +1501,18 @@ b {
     line-height: 54px;
     font-size: 30px; }
   .home-block h3 {
-    font-size: 19px; } }
+    font-size: 19px; }
+  .information-contact .cont-row {
+    text-align: center; }
+    .information-contact .cont-row img {
+      position: static;
+      display: block;
+      margin: 0 auto; }
+    .information-contact .cont-row span {
+      margin-right: 0; } }
+
+@media screen and (max-width: 400px) {
+  .room-hire .floor-block {
+    margin-bottom: 70px; }
+  .room-hire .floor-block .title {
+    display: block; } }
