@@ -1215,152 +1215,6 @@ img {
     border-left: 2px solid #8c8c8c;
     transform: rotate(225deg); }
 
-.information-concept h1 {
-  font-size: 50px;
-  font-weight: bold;
-  padding: 30px 0 50px;
-  text-transform: uppercase; }
-
-.information-concept p {
-  position: relative; }
-  .information-concept p .img {
-    position: absolute; }
-
-.room-hire {
-  text-align: center; }
-  .room-hire h1, .room-hire h2 {
-    font-size: 50px;
-    font-weight: bold;
-    padding: 30px 0 50px;
-    text-transform: uppercase; }
-  .room-hire p {
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 35px; }
-    .room-hire p.after-text {
-      font-size: 15px;
-      font-weight: bold;
-      position: relative;
-      display: inline-block;
-      padding: 0px 20px;
-      margin: 40px 0 50px; }
-      .room-hire p.after-text:before, .room-hire p.after-text:after {
-        content: "";
-        background-image: url("/catalog/view/theme/default/image/exclamation_mark.png");
-        display: block;
-        height: 50px;
-        width: 13px;
-        font-size: 69px;
-        color: #00cd9c;
-        position: absolute;
-        top: 7px; }
-      .room-hire p.after-text:before {
-        left: 0; }
-      .room-hire p.after-text:after {
-        right: 0; }
-  .room-hire .floor-block {
-    max-width: 400px;
-    margin: 20px auto 20px; }
-    .room-hire .floor-block .title {
-      display: inline-block;
-      font-size: 17px;
-      font-weight: bold;
-      border-bottom: 2px solid #56cc9d;
-      padding-bottom: 5px;
-      margin-bottom: 15px; }
-    .room-hire .floor-block .options {
-      width: 240px; }
-    .room-hire .floor-block .floor-img {
-      float: right;
-      position: relative;
-      right: -7px; }
-      .room-hire .floor-block .floor-img .text {
-        position: absolute;
-        left: 10px;
-        right: 10px;
-        text-align: center;
-        font-size: 17px; }
-      .room-hire .floor-block .floor-img img {
-        width: 120px; }
-    .room-hire .floor-block .option {
-      font-size: 18px; }
-      .room-hire .floor-block .option:nth-child(1) {
-        margin-bottom: 5px; }
-      .room-hire .floor-block .option:nth-child(2) {
-        margin-bottom: 15px; }
-      .room-hire .floor-block .option .img {
-        float: left;
-        width: 44px; }
-        .room-hire .floor-block .option .img img {
-          width: 44px; }
-      .room-hire .floor-block .option-title {
-        font-weight: bold;
-        margin-left: 55px;
-        margin-bottom: 0; }
-      .room-hire .floor-block .option-desc {
-        margin-left: 55px;
-        line-height: 1em;
-        min-height: 36px; }
-  .room-hire .prices {
-    text-align: center; }
-    .room-hire .prices p {
-      font-size: 22px;
-      line-height: 1.2em;
-      margin: 10px 0; }
-
-#links0 h4 {
-  margin-bottom: 60px; }
-
-#links0 .image {
-  text-align: center; }
-
-.teams p {
-  text-align: center;
-  font-size: 22px; }
-
-.teams .team {
-  margin-top: 30px; }
-  .teams .team .image {
-    max-width: 300px;
-    margin: 0 auto; }
-    .teams .team .image img {
-      max-width: 100%; }
-  .teams .team .name {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px 0; }
-
-.information-rates {
-  font-size: 21px;
-  text-align: center; }
-  .information-rates p {
-    margin-bottom: 60px; }
-  .information-rates .img {
-    margin-bottom: 60px; }
-  .information-rates .middle-div {
-    margin: 20px auto 70px;
-    max-width: 790px;
-    font-weight: bold;
-    font-size: 26px; }
-  .information-rates .bott-div {
-    text-align: center;
-    font-size: 26px;
-    line-height: 2em; }
-
-.information-contact {
-  margin-top: 40px;
-  font-size: 26px; }
-  .information-contact .cont-row {
-    position: relative; }
-    .information-contact .cont-row img {
-      position: absolute;
-      top: 0;
-      left: 0; }
-    .information-contact .cont-row span {
-      margin-left: 75px;
-      line-height: 65px; }
-
 .header {
   background: transparent;
   color: #fff;
@@ -1445,7 +1299,161 @@ img {
       opacity: .7; }
 
 .information p {
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  font-size: 23px; }
+
+.information-concept h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 30px 0 50px;
+  text-transform: uppercase; }
+
+.information-concept p {
+  position: relative; }
+  .information-concept p .img {
+    position: absolute; }
+  .information-concept p.big {
+    font-size: 30px;
+    font-weight: bold; }
+
+.room-hire {
+  text-align: center; }
+  .room-hire h1, .room-hire h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 30px 0 50px;
+    text-transform: uppercase; }
+  .room-hire p {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 35px; }
+    .room-hire p.after-text {
+      font-size: 15px;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      padding: 0px 20px;
+      margin: 40px 0 50px; }
+      .room-hire p.after-text:before, .room-hire p.after-text:after {
+        content: "";
+        background-image: url("/catalog/view/theme/default/image/exclamation_mark.png");
+        display: block;
+        height: 50px;
+        width: 13px;
+        font-size: 69px;
+        color: #00cd9c;
+        position: absolute;
+        top: 7px; }
+      .room-hire p.after-text:before {
+        left: 0; }
+      .room-hire p.after-text:after {
+        right: 0; }
+  .room-hire .floor-block {
+    max-width: 400px;
+    margin: 20px auto 20px; }
+    .room-hire .floor-block .title {
+      display: inline-block;
+      font-size: 17px;
+      font-weight: bold;
+      border-bottom: 2px solid #56cc9d;
+      padding-bottom: 5px;
+      margin-bottom: 15px; }
+    .room-hire .floor-block .options {
+      width: 240px;
+      text-align: left; }
+    .room-hire .floor-block .floor-img {
+      float: right;
+      position: relative;
+      right: -7px; }
+      .room-hire .floor-block .floor-img .text {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        text-align: center;
+        font-size: 17px; }
+      .room-hire .floor-block .floor-img img {
+        width: 120px; }
+    .room-hire .floor-block .option {
+      font-size: 18px; }
+      .room-hire .floor-block .option:nth-child(1) {
+        margin-bottom: 5px; }
+      .room-hire .floor-block .option:nth-child(2) {
+        margin-bottom: 15px; }
+      .room-hire .floor-block .option .img {
+        float: left;
+        width: 44px; }
+        .room-hire .floor-block .option .img img {
+          width: 44px; }
+      .room-hire .floor-block .option-title {
+        font-weight: bold;
+        margin-left: 55px;
+        margin-bottom: 0; }
+      .room-hire .floor-block .option-desc {
+        margin-left: 55px;
+        line-height: 1em;
+        min-height: 36px; }
+  .room-hire .prices {
+    text-align: center; }
+    .room-hire .prices p {
+      font-size: 22px;
+      line-height: 1.2em;
+      margin: 10px 0; }
+  .room-hire .btn-wrap {
+    margin-top: 45px; }
+
+#links0 h4 {
+  margin-bottom: 60px; }
+
+#links0 .image {
+  text-align: center; }
+
+.teams p {
+  text-align: center;
+  font-size: 22px; }
+
+.teams .team {
+  margin-top: 30px; }
+  .teams .team .image {
+    max-width: 300px;
+    margin: 0 auto; }
+    .teams .team .image img {
+      max-width: 100%; }
+  .teams .team .name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0; }
+
+.information-rates {
+  font-size: 21px;
+  text-align: center; }
+  .information-rates p {
+    margin-bottom: 60px; }
+  .information-rates .img {
+    margin-bottom: 60px; }
+  .information-rates .middle-div {
+    margin: 20px auto 70px;
+    max-width: 790px;
+    font-weight: bold;
+    font-size: 26px; }
+  .information-rates .bott-div {
+    text-align: center;
+    font-size: 26px;
+    line-height: 2em; }
+
+.information-contact {
+  margin-top: 40px;
+  font-size: 26px;
+  text-transform: uppercase; }
+  .information-contact .cont-row {
+    position: relative; }
+    .information-contact .cont-row img {
+      position: absolute;
+      top: 14px;
+      left: 0; }
+    .information-contact .cont-row span {
+      margin-left: 75px;
+      line-height: 90px; }
 
 .error p {
   line-height: 1.4em; }
