@@ -46,7 +46,6 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
-<link rel="icon" type="image/png" href="/image/fav.png">
 </head>
 <body class="<?php echo $class; ?>">
 
