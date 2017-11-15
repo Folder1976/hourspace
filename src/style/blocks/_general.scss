@@ -99,7 +99,14 @@ b { font-weight: bold; }
         font-size: 23px;
         color: #fff;
         background: #000;
-        padding: 4px 7px 0;
+        padding: 2px 7px 0;
+        border: 0;
+    }
+    &--nav {
+        font-size: 23px;
+        color: #fff;
+        background: #000;
+        padding: 0 7px 2px;
         border: 0;
     }
 }
@@ -127,6 +134,7 @@ b { font-weight: bold; }
 
 .logo {
     margin-bottom: 40px;
+    img { max-width: 100%; }
 }
 
 
@@ -148,6 +156,7 @@ b { font-weight: bold; }
     }
     .slogan {
         font-size: 33px;
+        line-height: 72px;
         text-transform: uppercase;
         p {
             padding: 15px 0;
@@ -201,12 +210,13 @@ b { font-weight: bold; }
     position: relative;
     .container {
         position: relative;
+        height: 100%;
         z-index: 10;
     }
     .social {
         text-align: right;
         position: absolute;
-        bottom: -50px;
+        bottom: -80px;
         right: 0;
         a {
             margin-left: 20px;

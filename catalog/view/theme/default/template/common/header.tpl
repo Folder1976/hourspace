@@ -53,7 +53,7 @@
     <header class="header">
       <div class="container">
         <div class="top-line">
-          <button class="top-nav-toggle g-btn js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+          <button class="top-nav-toggle g-btn g-btn--nav js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
           <nav class="top-nav">
             <ul>
               <li><a href="/"><?php echo $menu_home; ?></a></li>

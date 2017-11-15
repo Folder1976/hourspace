@@ -7,8 +7,8 @@
         <img src="/image/logo.png" alt="">
       </div>
       <div class="slogan">
-        <p><?php echo $text_a_place_where; ?></p>
-        <p><?php echo $text_everything_is_free_except_time; ?></p>
+        <p><?php echo $text_a_place_where; ?><br>
+        <?php echo $text_everything_is_free_except_time; ?></p>
       </div>
       <div class="social">
         <a href="#"><img src="/catalog/view/theme/default/image/ico/fb-white.png" alt="fb"></a>
@@ -23,15 +23,15 @@
       <h2><?php echo $text_rates;?></h2>
 
       <div class="row row-img">
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-12">
           <img src="/catalog/view/theme/default/image/hour.png" alt="">
           <p>15 <?php echo $text_nik; ?></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-12">
           <img src="/catalog/view/theme/default/image/day.png" alt="">
           <p>60 <?php echo $text_nik; ?></p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4 col-xs-12">
           <img src="/catalog/view/theme/default/image/month.png" alt="">
           <p>650 <?php echo $text_nik; ?></p>
         </div>
@@ -52,17 +52,17 @@
       <p><?php echo $text_we_are_located_in; ?></p>
 
       <div class="row row-img">
-        <div class="col-md-4 floor">
+        <div class="col-sm-4 col-xs-12 floor">
           <img src="/catalog/view/theme/default/image/floor_0.jpg" alt="">
           <p class="nis">150 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
         </div>
-        <div class="col-md-4 floor">
+        <div class="col-sm-4 col-xs-12 floor">
           <img src="/catalog/view/theme/default/image/floor_1.jpg" alt="">
           <p class="nis">100 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
         </div>
-        <div class="col-md-4 floor">
+        <div class="col-sm-4 col-xs-12 floor">
           <img src="/catalog/view/theme/default/image/whole_space.jpg" alt="">
           <p class="nis">400 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
@@ -85,11 +85,11 @@
       </div>
 
       <div class="row row-img">
-        <div class="col-md-6">
+        <div class="col-sm-6 col-xs-12">
           <img src="/catalog/view/theme/default/image/time1.png" alt="">
           <p><?php echo $text_co_working_mode; ?></p>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-6 col-xs-12">
           <img src="/catalog/view/theme/default/image/time2.png" alt="">
           <p><?php echo $text_child_mode; ?></p>
         </div>
