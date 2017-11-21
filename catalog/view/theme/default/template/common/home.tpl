@@ -1,5 +1,10 @@
 <?php echo $header; ?>
 
+<?php
+$session = array_shift($_SESSION);
+$lang = $session['language'];
+?>
+
 <main class="home">
   <div class="home-block home-block-1" style="background-image: url(/image/foto/foto1.jpg);">
     <div class="container">
@@ -24,15 +29,15 @@
 
       <div class="row row-img">
         <div class="col-sm-4 col-xs-12">
-          <img src="/catalog/view/theme/default/image/transl/en/hour.png" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/hour.png" alt="">
           <p>15 <?php echo $text_nik; ?></p>
         </div>
         <div class="col-sm-4 col-xs-12">
-          <img src="/catalog/view/theme/default/image/transl/en/day.png" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/day.png" alt="">
           <p>60 <?php echo $text_nik; ?></p>
         </div>
         <div class="col-sm-4 col-xs-12">
-          <img src="/catalog/view/theme/default/image/transl/en/month.png" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/month.png" alt="">
           <p>650 <?php echo $text_nik; ?></p>
         </div>
       </div>
@@ -54,17 +59,17 @@
 
       <div class="row row-img">
         <div class="col-sm-4 col-xs-12 floor">
-          <img src="/catalog/view/theme/default/image/transl/en/floor_0.jpg" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/floor_0.jpg" alt="">
           <p class="nis">150 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
         </div>
         <div class="col-sm-4 col-xs-12 floor">
-          <img src="/catalog/view/theme/default/image/transl/en/floor_1.jpg" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/floor_1.jpg" alt="">
           <p class="nis">100 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
         </div>
         <div class="col-sm-4 col-xs-12 floor">
-          <img src="/catalog/view/theme/default/image/transl/en/whole_space.jpg" alt="">
+          <img src="/catalog/view/theme/default/image/transl/<?php echo $lang; ?>/whole_space.jpg" alt="">
           <p class="nis">400 <?php echo $text_nik; ?></p>
           <p><?php echo $text_per_hour; ?></p>
         </div>
