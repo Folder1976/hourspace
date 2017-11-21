@@ -52,6 +52,16 @@ b { font-weight: bold; }
 
 img { max-width: 100%; }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: $global_color_2;
+}
+
+.container.hr-wrap {
+    margin-top: 40px;
+}
+
 .page-wrapper {
     min-height: 100%;
     margin-bottom: -$global_footer_height;
@@ -246,6 +256,7 @@ img { max-width: 100%; }
 }
 
 .home-block-3 {
+    p { font-size: 28px; }
     .floor {
         p { font-size: 30px; }
         .nis { font-size: 40px; }
@@ -264,14 +275,14 @@ img { max-width: 100%; }
         margin-top: 100px;
         p {
             font-size: 33px;
-            max-width: 240px;
+            // max-width: 240px;
             margin: 0 auto;
         }
     }
     .join_us {
-        max-width: 500px;
+        // max-width: 500px;
         margin: 0 auto;
-        line-height: 2em;
+        font-size: 36px;
         a {
             position: relative;
             top: 20px

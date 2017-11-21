@@ -38,6 +38,7 @@
                 height: $global_header_height;
                 line-height: $global_header_height + 3;
                 padding: 0 10px;
+                letter-spacing: .6px;
             }
             &.active {
                 a {

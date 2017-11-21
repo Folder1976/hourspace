@@ -1006,6 +1006,14 @@ b {
 img {
   max-width: 100%; }
 
+hr {
+  border: none;
+  height: 1px;
+  background-color: #56cc9d; }
+
+.container.hr-wrap {
+  margin-top: 40px; }
+
 .page-wrapper {
   min-height: 100%;
   margin-bottom: -55px; }
@@ -1156,6 +1164,9 @@ img {
 .home-block-2 .ff-2 {
   font-size: 38px; }
 
+.home-block-3 p {
+  font-size: 28px; }
+
 .home-block-3 .floor p {
   font-size: 30px; }
 
@@ -1173,12 +1184,10 @@ img {
     margin-top: 100px; }
     .home-block-4 .row-img p {
       font-size: 33px;
-      max-width: 240px;
       margin: 0 auto; }
   .home-block-4 .join_us {
-    max-width: 500px;
     margin: 0 auto;
-    line-height: 2em; }
+    font-size: 36px; }
     .home-block-4 .join_us a {
       position: relative;
       top: 20px; }
@@ -1245,7 +1254,8 @@ img {
         display: block;
         height: 50px;
         line-height: 53px;
-        padding: 0 10px; }
+        padding: 0 10px;
+        letter-spacing: .6px; }
       .header .top-nav li.active a {
         color: #56cc9d; }
       .header .top-nav li:hover a {
@@ -1430,12 +1440,12 @@ img {
   .information-rates p {
     margin-bottom: 60px; }
   .information-rates .img {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    height: 172px; }
   .information-rates .middle-div {
     margin: 20px auto 70px;
-    max-width: 790px;
     font-weight: bold;
-    font-size: 26px; }
+    font-size: 25px; }
   .information-rates .bott-div {
     text-align: center;
     font-size: 26px;

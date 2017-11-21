@@ -206,12 +206,15 @@
     font-size:21px;
     text-align: center;
     p { margin-bottom: 60px; }
-    .img { margin-bottom: 60px; }
+    .img {
+        margin-bottom: 60px;
+        height: 172px;
+    }
     .middle-div {
         margin: 20px auto 70px;
-        max-width: 790px;
+        // max-width: 790px;
         font-weight: bold;
-        font-size:26px;
+        font-size:25px;
     }
     .bott-div {
         text-align: center;
