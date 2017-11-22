@@ -4,7 +4,7 @@
 <div class="row">
   <div id="links<?php echo $module; ?>">
     <?php foreach ($images as $gimage) { ?>
-      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+      <div class="image-wrap">
         <div class="image"><a href="<?php echo $gimage['image']; ?>" title="<?php echo $gimage['title']; ?>" data-gallery="#blueimp-gallery-links<?php echo $module; ?>"><img src="<?php echo $gimage['thumb']; ?>" alt="<?php echo $gimage['title']; ?>" title="<?php echo $gimage['title']; ?>" class="img-responsive" /></a></div>
         <?php if ($thumb_title) { ?>
         <h4><?php echo $gimage['title']; ?></h4>
