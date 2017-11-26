@@ -17,7 +17,7 @@
 <?php if ($keywords) { ?>
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
-<script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="/catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
 <!-- <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" /> -->
 <!-- <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> -->
 <!-- <link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
@@ -25,9 +25,9 @@
 
 <?php if ( $direction == 'rtl' ) {?>
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="/catalog/view/theme/default/stylesheet/style-rtl.min.css" rel="stylesheet">  
+  <link href="/catalog/view/theme/default/stylesheet/style-rtl.min.css" rel="stylesheet">
 <?php } else { ?>
-  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
   <link href="/catalog/view/theme/default/stylesheet/style.min.css" rel="stylesheet">
 <?php } ?>
 
@@ -50,26 +50,22 @@
 <body class="<?php echo $class; ?>">
 
   <div class="page-wrapper">
-    <header class="header">
-      <div class="container">
-        <div class="top-line">
-          <button class="top-nav-toggle g-btn g-btn--nav js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
-          <nav class="top-nav">
-            <ul>
-              <li><a href="/"><?php echo $menu_home; ?></a></li>
-              <li><a href="/concept"><?php echo $menu_concept; ?></a></li>
-              <li><a href="/rates"><?php echo $menu_rates; ?></a></li>
-              <li><a href="/room_hire"><?php echo $menu_room_hire; ?></a></li>
-              <li><a href="/team"><?php echo $menu_team; ?></a></li>
-              <li><a href="/contacts"><?php echo $menu_contact; ?></a></li>
-              <li><a href="/gallery"><?php echo $menu_galery; ?></a></li>
-            </ul>
-          </nav>
-          <?php echo $language; ?>
-        </div>
-      </div>
-    </header>
-
-
-
-
+	<header class="header">
+	  <div class="container">
+		<div class="top-line">
+		  <button class="top-nav-toggle g-btn g-btn--nav js-mob-top-nav"><span><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+		  <nav class="top-nav">
+			<ul>
+			  <li><a href="/"><?php echo $menu_home; ?></a></li>
+			  <li><a href="/concept"><?php echo $menu_concept; ?></a></li>
+			  <li><a href="/rates"><?php echo $menu_rates; ?></a></li>
+			  <li><a href="/room_hire"><?php echo $menu_room_hire; ?></a></li>
+			  <li><a href="/team"><?php echo $menu_team; ?></a></li>
+			  <li><a href="/contacts"><?php echo $menu_contact; ?></a></li>
+			  <li><a href="/gallery"><?php echo $menu_galery; ?></a></li>
+			</ul>
+		  </nav>
+		  <?php echo $language; ?>
+		</div>
+	  </div>
+	</header>
