@@ -1338,7 +1338,7 @@ hr {
     text-align: center;
     margin-bottom: 35px; }
     .room-hire p.after-text {
-      font-size: 15px;
+      font-size: 25px;
       font-weight: bold;
       position: relative;
       display: inline-block;
@@ -1409,7 +1409,11 @@ hr {
       line-height: 1.2em;
       margin: 10px 0; }
   .room-hire .btn-wrap {
-    margin-top: 45px; }
+    /*margin-top: 45px;*/ }
+
+div.room-hire p a{
+  text-decoration: underline;
+}
 
 #links0 h4 {
   margin-bottom: 60px; }
@@ -1452,8 +1456,8 @@ hr {
     font-size: 25px; }
   .information-rates .bott-div {
     text-align: center;
-    font-size: 26px;
-    line-height: 2em; }
+    font-size: 36px;
+    line-height: 1em; }
 
 .information-contact {
   margin-top: 40px;

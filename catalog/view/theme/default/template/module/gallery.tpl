@@ -25,13 +25,14 @@ $( "#gallery" ).jGallery( {
 		"thumbnailsPosition":"top",
 		"thumbType":"image",
 		"mode":"standard",
-		"height": "calc(100vh - 200px)",
+		"height": "calc(100vh - 100px)",
 		"thumbHeight": 100,
 		"thumbHeightOnFullScreen": 150,
 		"thumbWidth": 100,
 		"thumbWidthOnFullScreen": 150,
 		"swipeEvents":"true",
 		"textColor": '#fff',
+		"zoomSize": 'fill',
 		"backgroundColor": '#000'
 
 	} );

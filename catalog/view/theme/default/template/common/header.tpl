@@ -28,7 +28,7 @@
   <link href="/catalog/view/theme/default/stylesheet/style-rtl.min.css" rel="stylesheet">
 <?php } else { ?>
   <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-  <link href="/catalog/view/theme/default/stylesheet/style.min.css" rel="stylesheet">
+  <link href="/catalog/view/theme/default/stylesheet/style.css" rel="stylesheet">
 <?php } ?>
 
 <link href="/catalog/view/theme/default/stylesheet/informations.css" rel="stylesheet">
