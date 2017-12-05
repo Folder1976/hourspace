@@ -1,55 +1,39 @@
 <?php if (!empty($heading_title)) { ?>
   <h3><?php echo $heading_title; ?></h3>
 <?php } ?>
-<div class="row">
-  <div id="links<?php echo $module; ?>">
-    <?php foreach ($images as $gimage) { ?>
-      <div class="image-wrap">
-        <div class="image"><a href="<?php echo $gimage['image']; ?>" title="<?php echo $gimage['title']; ?>" data-gallery="#blueimp-gallery-links<?php echo $module; ?>"><img src="<?php echo $gimage['thumb']; ?>" alt="<?php echo $gimage['title']; ?>" title="<?php echo $gimage['title']; ?>" class="img-responsive" /></a></div>
-        <?php if ($thumb_title) { ?>
-        <h4><?php echo $gimage['title']; ?></h4>
-        <?php } ?>
-      </div>
-    <?php } ?>
-  </div>
-</div>
-<?php if ($module === 0) { ?>
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-      <div id="blueimp-gallery" class="blueimp-gallery">
-      <!-- The container for the modal slides -->
-      <div class="slides"></div>
-      <!-- Controls for the borderless lightbox -->
-      <h3 class="title"></h3>
-      <a class="prev">‹</a>
-      <a class="next">›</a>
-      <a class="close" style="-webkit-transform: scale(2); -moz-transform: scale(2); -ms-transform: scale(2); -o-transform: scale(2); transform: scale(2);">×</a>
-      <a class="play-pause" style="-webkit-transform: scale(2); -moz-transform: scale(2); -ms-transform: scale(2); -o-transform: scale(2); transform: scale(2);"></a>
-      <ol class="indicator"></ol>
-      <!-- The modal dialog, which will be used to wrap the lightbox content -->
-      <div class="modal fade">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"></h4>
-              </div>
-              <div class="modal-body next"></div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default pull-left prev">
-                    <i class="glyphicon glyphicon-chevron-left"></i>
-                    Previous
-                  </button>
-                  <button type="button" class="btn btn-primary next">
-                    Next
-                    <i class="glyphicon glyphicon-chevron-right"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-<script type="text/javascript"><!--
-$('#blueimp-gallery').data('useBootstrapModal', 0);
-$('#blueimp-gallery').toggleClass('blueimp-gallery-controls', 0);
---></script>
+<link rel="stylesheet" type="text/css" media="all" href="/catalog/view/theme/default/stylesheet/gallery/font-awesome.min.css" />
+<?php if ( !empty($direction) && $direction == 'rtl' ) {?>
+	<link rel="stylesheet" type="text/css" media="all" href="/catalog/view/theme/default/stylesheet/gallery/jgallery-rtl.min.css?v=1.6.0" />
+<?php } else { ?>
+	<link rel="stylesheet" type="text/css" media="all" href="/catalog/view/theme/default/stylesheet/gallery/jgallery.min.css?v=1.6.0" />
 <?php } ?>
+<script type="text/javascript" src="/catalog/view/theme/default/js/gallery/jgallery.min.js?v=1.6.0"></script>
+<script type="text/javascript" src="/catalog/view/theme/default/js/gallery/touchswipe.min.js"></script>
+<div class="row">
+
+<div id="gallery">
+	<?php foreach ($images as $gimage) { ?>
+		<a href="<?php echo $gimage['image']; ?>"><img src="<?php echo $gimage['thumb']; ?>" alt="<?php echo $gimage['title']; ?>" /></a>
+	<?php } ?>
+</div>
+</div>
+<script type="text/javascript">
+$( "#gallery" ).jGallery( {
+		"transition":"moveToLeft_moveFromRight",
+		"transitionCols":"1",
+		"transitionRows":"1",
+		"thumbnailsPosition":"top",
+		"thumbType":"image",
+		"mode":"standard",
+		"height": "calc(100vh - 100px)",
+		"thumbHeight": 100,
+		"thumbHeightOnFullScreen": 150,
+		"thumbWidth": 100,
+		"thumbWidthOnFullScreen": 150,
+		"swipeEvents":"true",
+		"textColor": '#fff',
+		"zoomSize": 'fill',
+		"backgroundColor": '#000'
+
+	} );
+</script>

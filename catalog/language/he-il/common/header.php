@@ -1,12 +1,12 @@
 <?php
 //Menu
-$_['menu_home'] = 'בית';
-$_['menu_concept'] = 'מוּשָׂג';
-$_['menu_rates'] = 'תעריפים';
-$_['menu_room_hire'] = 'לשכור חדר';
-$_['menu_team'] = 'קְבוּצָה';
-$_['menu_contact'] = 'איש קשר';
-$_['menu_galery'] = 'גלרי';
+$_['menu_home'] = 'עמוד בית';
+$_['menu_concept'] = 'אודות';
+$_['menu_rates'] = 'מחירון';
+$_['menu_room_hire'] = 'שכירות';
+$_['menu_team'] = 'צוות';
+$_['menu_contact'] = 'צור קשר';
+$_['menu_galery'] = 'גלריה';
 
 
 // Text
@@ -24,4 +24,3 @@ $_['text_logout'] = 'התנתק';
 $_['text_checkout'] = 'המשך לקופה';
 $_['text_search'] = 'חיפוש';
 $_['text_all'] = 'הצג הכל';
-

@@ -1,29 +1,32 @@
 <?php
 
 //Menu
-$_['text_a_place_where'] = 'מקום שבו';
-$_['text_everything_is_free_except_time'] = 'הכל חופשי מלבד הזמן';
-$_['text_rates'] = 'תעריפים';
+$_['text_a_place_where'] = 'מקום שבו הכול בחינם חוץ מהזמן';
+$_['text_everything_is_free_except_time'] = '';
+$_['text_rates'] = 'מחירון';
 $_['text_nik'] = 'ש"ח';
 $_['text_per_hour'] = 'לשעה';
-$_['text_discounst_and_membership'] = 'יש discounst וחברות';
+$_['text_discounst_and_membership'] = 'יש לנו חברי מועדון והנחות';
 $_['text_details'] = 'פרטים';
-$_['text_hire'] = 'לִשְׂכּוֹר';
-$_['text_we_are_located_in'] = 'אנחנו ממוקמים בחצרים שלושה קומות עם אווירה נעימה ונעימה. עיצוב הפנים נוצר על ידי הצוות שלנו עם תשומת לב מיוחדת לפרטים כדי להבטיח שכל אדם מרגיש בנוח כמו בבית.';
+$_['text_hire'] = 'שכיקות';
+$_['text_we_are_located_in'] = 'יש לנו שלושה קומות - כל אחד עם אווירה נחמדה ונעימה. עיצוב הפנים
+נוצר בתשומת לב לכל הפרטים כדי שכל אחד ירגיש נוח כמו בבית.';
 $_['text_time_club'] = '- מועדון זמן -';
-$_['text_coworcing'] = '- קוורסינג -';
-$_['text_creative_space'] = '- שטח קריאייטיב -';
-$_['text_co_working_mode'] = 'במצב עבודה משותפת';
-$_['text_child_mode'] = 'מצב זמן הילד';
-$_['text_join_us_on'] = '<a href="https://www.facebook.com/hourspaceTLV" target="_blank"><img src="/catalog/view/theme/default/image/fb.png" alt="fb"> הצטרפו אלינו על לוח השנה המלא של האירועים שלנו</a>';
-$_['text_whichever'] = 'בכל דרך שתבחר אתה מקבל';
-$_['text_tea'] = 'תֵה';
-$_['text_snacks'] = 'חֲטִיפִים';
-$_['text_coffee'] = 'קָפֶה';
-$_['text_lemonade'] = 'לִימוֹנָדָה';
+$_['text_coworcing'] = '- חלל עבודה -';
+$_['text_creative_space'] = '- חלל יצירתיותב -';
+$_['text_co_working_mode'] = 'זמן עבודה';
+$_['text_child_mode'] = 'זמן מנוחה
+ זמן אירועים';
+$_['text_join_us_on'] = '<a href="https://www.facebook.com/hourspaceTLV" target="_blank">בשביל לוח הזמנים<img src="/catalog/view/theme/default/image/fb.png" alt="fb">הצטרפו אלינו ב
+ של אירועים</a>';
+$_['text_whichever'] = 'בכל אופציה שתבחרו, תקבלו';
+$_['text_tea'] = 'תה';
+$_['text_snacks'] = 'נשנושים';
+$_['text_coffee'] = 'קפה';
+$_['text_lemonade'] = 'לימונדה';
 $_['text_printer'] = 'מדפסת';
 $_['text_chargers'] = 'מטענים';
-$_['text_scanner'] = 'סוֹרֵק';
+$_['text_scanner'] = 'סורק';
 $_['text_wifi'] = 'wifi';
-$_['text_board_games'] = 'משחקי לוח';
+$_['text_board_games'] = 'משחקי שולחן';
 $_['text_books'] = 'ספרים';

@@ -1,9 +1,9 @@
 <?php
 //Menu
 $_['menu_home'] = 'Главная';
-$_['menu_concept'] = 'Концепция';
+$_['menu_concept'] = 'Идея';
 $_['menu_rates'] = 'Цены';
-$_['menu_room_hire'] = 'Аренда номеров';
+$_['menu_room_hire'] = 'Аренда помещений';
 $_['menu_team'] = 'Команда';
 $_['menu_contact'] = 'Контакты';
 $_['menu_galery'] = 'Галерея';
