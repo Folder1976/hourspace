@@ -5,12 +5,21 @@ class Action {
 	private $method;
 	private $args = array();
 
+	public function getId() {
+    if (version_compare(VERSION, '2.2.0', '>=')) {
+      return $this->route;
+    } else {
+      return preg_replace('#^' . preg_quote(DIR_APPLICATION) . 'controller/(.*)\.php$#', '${1}', $this->file);
+    }
+  }
+
 	public function __construct($route, $args = array()) {
 		$parts = explode('/', str_replace('../', '', (string)$route));
 
 		// Break apart the route
 		while ($parts) {
 			$file = DIR_APPLICATION . 'controller/' . implode('/', $parts) . '.php';
+
 
 			if (is_file($file)) {
 				$this->file = $file;
@@ -36,7 +45,7 @@ class Action {
 		}
 
 		if (is_file($this->file)) {
-			include_once($this->file);
+			include_once(modification($this->file));
 
 			$class = $this->class;
 

@@ -13,10 +13,34 @@ final class Front {
 	}
 
 	public function dispatch($action, $error) {
-		$this->error = $error;
+		ocmStartup($this->registry);
+
+    $this->error = $error;
 
 		foreach ($this->pre_action as $pre_action) {
+			$ocm_route = $pre_action->getId(). '/index';
+
+      $output = null;
+
+      if (!OCM_IS_ADMIN || ($this->registry->get('user') && $this->registry->get('user')->isLogged())) {
+        $ocm_result = $this->registry->get('ocmodify')->event->trigger('controller/' . $ocm_route . '/before', array(&$ocm_route, &$args, &$output));
+        
+  			if ($ocm_result instanceof Action) {
+  				$action = $ocm_result;
+  				break;
+  			}
+      }
+      
 			$result = $this->execute($pre_action);
+      
+      if (!OCM_IS_ADMIN || ($this->registry->get('user') && $this->registry->get('user')->isLogged())) {
+        $ocm_result = $this->registry->get('ocmodify')->event->trigger('controller/' . $ocm_route . '/after', array(&$ocm_route, &$args, &$output));
+        
+  			if ($ocm_result instanceof Action) {
+  				$action = $ocm_result;
+  				break;
+  			}
+      }
 
 			if ($result) {
 				$action = $result;
