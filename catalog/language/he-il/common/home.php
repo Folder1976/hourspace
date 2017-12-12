@@ -17,7 +17,7 @@ $_['text_creative_space'] = '- חלל יצירתיותב -';
 $_['text_co_working_mode'] = 'זמן עבודה';
 $_['text_child_mode'] = 'זמן מנוחה
  זמן אירועים';
-$_['text_join_us_on'] = '<a href="https://www.facebook.com/hourspaceTLV" target="_blank">בשביל לוח הזמנים<img src="/catalog/view/theme/default/image/fb.png" alt="fb">הצטרפו אלינו ב
+$_['text_join_us_on'] = '<a href="//www.facebook.com/hourspaceTLV" target="_blank">בשביל לוח הזמנים<img src="/catalog/view/theme/default/image/fb.png" alt="fb">הצטרפו אלינו ב
  של אירועים</a>';
 $_['text_whichever'] = 'בכל אופציה שתבחרו, תקבלו';
 $_['text_tea'] = 'תה';

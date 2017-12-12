@@ -102,7 +102,7 @@ $lang = $session['language'];
         </div>
       </div>
 
-      <p class="join_us"><?php echo $text_join_us_on; ?></p>
+      <div class="bott-div"><?php echo $text_join_us_on; ?></div>
 
     </div>
     <div class="container hr-wrap"><hr></div>

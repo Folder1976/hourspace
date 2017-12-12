@@ -17,7 +17,7 @@ $_['text_coworcing'] = '- Co-working -';
 $_['text_creative_space'] = '- Creative space -';
 $_['text_co_working_mode'] = 'co-working<br>mode';
 $_['text_child_mode'] = 'child mode<br>events time';
-$_['text_join_us_on'] = '<a href="https://www.facebook.com/hourspaceTLV" target="_blank">Join us on <img src="/catalog/view/theme/default/image/fb.png" alt="fb"> for our full<br>calendar of events</a>';
+$_['text_join_us_on'] = '<a href="//www.facebook.com/hourspaceTLV" target="_blank">Join us on <img src="/catalog/view/theme/default/image/fb.png" alt="fb"> for our full<br>calendar of events</a>';
 $_['text_whichever'] = 'Whichever way you chose<br>you get';
 $_['text_tea'] = 'tea';
 $_['text_snacks'] = 'snacks';

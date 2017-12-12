@@ -17,7 +17,7 @@ $_['text_coworcing'] = '- Коворкинг -';
 $_['text_creative_space'] = '- Творческая среда -';
 $_['text_co_working_mode'] = 'до 6 вечера мы вместе<br>работаем и учимся<br>в спокойной, приятной<br>атмосфере';
 $_['text_child_mode'] = 'по вечерам мы вместе<br>отдыхаем, принимаем<br>участие в различных<br>мероприятиях';
-$_['text_join_us_on'] = '<a href="https://www.facebook.com/hourspaceTLV" target="_blank">Подписывайтесь! <img src="/catalog/view/theme/default/image/fb.png" alt="fb"> Здесь вы найдете<br> актуальное расписание наших мероприятий.</a>';
+$_['text_join_us_on'] = '<a href="//www.facebook.com/hourspaceTLV" target="_blank">Подписывайтесь! <img src="/catalog/view/theme/default/image/fb.png" alt="fb"><br>Здесь вы найдете актуальное расписание наших мероприятий.</a>';
 $_['text_whichever'] = 'какой бы вариант пребывания у нас вы не выбрали,<br>в вашем полном распоряжении';
 $_['text_tea'] = 'чай';
 $_['text_snacks'] = 'печенье';
