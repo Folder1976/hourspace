@@ -16,8 +16,8 @@ $lang = $session['language'];
         <?php echo $text_everything_is_free_except_time; ?></p>
       </div>
       <div class="social">
-        <a href="#"><img src="/catalog/view/theme/default/image/ico/fb-white.png" alt="fb"></a>
-        <a href="#"><img src="/catalog/view/theme/default/image/ico/instagram-white.png" alt="instagram"></a>
+        <a href="http://facebook.com/hourspaceTLV/"><img src="/catalog/view/theme/default/image/ico/fb-white.png" alt="fb"></a>
+        <a href="https://www.instagram.com/hour.space/"><img src="/catalog/view/theme/default/image/ico/instagram-white.png" alt="instagram"></a>
       </div>
     </div>
     <div class="next-page-img"></div>
@@ -130,6 +130,14 @@ $lang = $session['language'];
           <li>
             <div class="img"><img src="/catalog/view/theme/default/image/ico/lemonade.jpg" alt=""></div>
             <div class="name"><?php echo $text_lemonade; ?></div>
+          </li>
+          <li>
+            <div class="img"><img src="/catalog/view/theme/default/image/ico/projector.jpg" alt=""></div>
+            <div class="name"><?php echo $text_projector; ?></div>
+          </li>
+          <li>
+            <div class="img"><img src="/catalog/view/theme/default/image/ico/playstation.jpg" alt=""></div>
+            <div class="name"><?php echo $text_playstation; ?></div>
           </li>
         </ul>
         <ul>

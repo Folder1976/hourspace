@@ -8,12 +8,12 @@ $_['text_nik'] = 'ש"ח';
 $_['text_per_hour'] = 'לשעה';
 $_['text_discounst_and_membership'] = 'יש לנו חברי מועדון והנחות';
 $_['text_details'] = 'פרטים';
-$_['text_hire'] = 'שכיקות';
+$_['text_hire'] = 'שכירות';
 $_['text_we_are_located_in'] = 'יש לנו שלושה קומות - כל אחד עם אווירה נחמדה ונעימה. עיצוב הפנים
 נוצר בתשומת לב לכל הפרטים כדי שכל אחד ירגיש נוח כמו בבית.';
 $_['text_time_club'] = '- מועדון זמן -';
 $_['text_coworcing'] = '- חלל עבודה -';
-$_['text_creative_space'] = '- חלל יצירתיותב -';
+$_['text_creative_space'] = '- חלל ליצירה -';
 $_['text_co_working_mode'] = 'זמן עבודה';
 $_['text_child_mode'] = 'זמן מנוחה
  זמן אירועים';
@@ -30,3 +30,5 @@ $_['text_scanner'] = 'סורק';
 $_['text_wifi'] = 'wifi';
 $_['text_board_games'] = 'משחקי שולחן';
 $_['text_books'] = 'ספרים';
+$_['text_projector'] = 'מקרן';
+$_['text_playstation'] = 'playstation';

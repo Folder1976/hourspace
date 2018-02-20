@@ -47,6 +47,8 @@ class ControllerCommonHome extends Controller {
 		$data['text_wifi'] = $this->language->get('text_wifi');
 		$data['text_board_games'] = $this->language->get('text_board_games');
 		$data['text_books'] = $this->language->get('text_books');
+		$data['text_projector'] = $this->language->get('text_projector');
+		$data['text_playstation'] = $this->language->get('text_playstation');
 		
 	
 	
